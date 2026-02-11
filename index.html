@@ -48,11 +48,6 @@
       align-items:center;justify-content:space-between
     }
     .cta strong{color:#0b0e0d}
-    .btn{
-      background:var(--acc);color:#000;
-      border-radius:8px;padding:10px 14px;
-      font-weight:700;text-decoration:none
-    }
 
     .h2{font-size:22px;margin-top:10px}
     .p{color:#d7ddd9;line-height:1.6}
@@ -124,6 +119,32 @@
     inset 0 0 0 1px rgba(255,255,255,.04),
     0 10px 28px rgba(0,0,0,.45);
 }
+.cta-button{
+  display:inline-block;
+  padding:16px 36px;
+  border-radius:12px;
+
+  background:linear-gradient(135deg,#2ee58c,#1dbf73);
+  color:#0e1311;
+  font-weight:700;
+  font-size:16px;
+  text-decoration:none;
+  letter-spacing:.5px;
+
+  box-shadow:0 8px 24px rgba(46,229,140,.35);
+  transition:.25s ease;
+}
+
+.cta-button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 32px rgba(46,229,140,.5);
+}
+
+.cta-button:active{
+  transform:translateY(0);
+  box-shadow:0 6px 16px rgba(46,229,140,.3);
+}
+
 
   </style>
 <!-- Yandex.Metrika counter -->
@@ -188,7 +209,8 @@
     <div class="content">
       <div class="cta">
         <strong>Официальная зеркало KickBET</strong>
-        <a class="btn" href="#" onclick="return false">Перейти на KickBET</a>
+        <a href="#" class="cta-button">Перейти на KickBET</a>
+
       </div>
 
       <p class="p">
